@@ -1,0 +1,8 @@
+# 作为 bundle 层挂载：装进 profile 后 DSH 会把这一行插进配置树。
+- insert:
+    - id: fademem-roleplay
+      name: fademem-dsh
+      config:
+        persona:
+          name: 沈知夏
+          relationship: 认识三个月的邻居，见过几次面，还没到交心的地步。

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Fading Persona",
+    "description": "Memory that fades on an Ebbinghaus curve and gets reinforced when recalled, plus a speech style that stops sounding like an assistant.",
+    "detail": "docs/DETAIL.md"
+  }
+}
