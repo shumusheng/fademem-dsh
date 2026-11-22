@@ -8,12 +8,23 @@
 
 ## 装上它
 
-在 DSH 里打开 **插件（Plugins）**，安装 `fademem-dsh`。两种来源任选：
+在 DSH 里打开 **插件（Plugins）**，来源选 **Git**，填：
 
-- **npm**：插件页安装时填包名 `fademem-dsh`
-- **Git**：填 `https://github.com/shumusheng/fademem-dsh`，确认框会显示仓库和 commit
+```
+https://github.com/shumusheng/fademem-dsh
+```
 
-装好即生效，无需重启（DSH 会重挂插件）。
+确认框会显示仓库和 commit，装上即生效。（暂时没发 npm，填包名会找不到。）
+
+如果 DSH 只给了命令行，等价命令是：
+
+```bash
+dsh plugin --profile desktop add "https://github.com/shumusheng/fademem-dsh"
+```
+
+然后把 `fademem-dsh` 加进 `~/.dsh/profiles/desktop/package.json` 的 `dsh.profile.bundles` 数组，重启 DSH。这一步没法自动，因为 profile 文件是用户自己的。
+
+本地开发想直接挂工作区里的副本，用 `"file:D:/fademem-dsh"` 代替上面的网址。
 
 ## 配一下角色
 
